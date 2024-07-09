@@ -18,6 +18,7 @@ body{
     background-image: url(../assets/Hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 74px;
 }
 
 .banner-contents{
@@ -72,10 +73,11 @@ body{
 /*web-dev styles starts here */
 .web-dev-container{
     max-width: 1140px;
-    min-width: 1393px;
+    min-height: 1393px;
     background-color: rgba(13, 19, 33, 0.02);
     border-radius: 16px;
-    margin: 74px 152px 90px 148px;
+    margin: 0 auto;
+    margin-bottom: 88px;
     padding: 80px 97px;
 }
 
@@ -98,7 +100,7 @@ body{
     font-size: 16px;
     font-weight: 400;
 }
-/*web-dev styles ends here */
+
 
 /*cards styles starts here */
 .card-container{
@@ -157,3 +159,52 @@ body{
 }
 
 /*cards styles ends here */
+
+/*web-dev styles ends here */
+
+/*inspiration styles starts here */
+.inspiration-container{
+    max-width: 1140px;
+    min-height: 775px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.inspiration-text h3{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800; 
+    margin-bottom: 24px;   
+}
+.inspiration-text p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 144px;
+    margin-right: 144px;
+    margin-bottom: 48px;
+}
+
+.inspiration-video{
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    width: 100%;
+    height: 614px;
+    border-radius: 32px;
+    position: relative;
+}
+.video{
+    position: absolute;
+    border-radius: 16px;
+    right: 2.5%;
+    top: 6%;
+}
+/*inspiration styles ends here */
