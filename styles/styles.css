@@ -272,6 +272,7 @@ main{
     background-blend-mode: overlay;
     border-radius: 16px;
     padding: 64px;
+    margin-bottom: 80px;
 }
 .support-form{
     position: relative;
@@ -305,5 +306,23 @@ main input[type="text"]{
     border: none;
 
 }
-
 /*support styles ends here */
+
+/* footer styles starts here */
+.footer-container{
+    background-color: rgba(13, 19, 33, 0.03);
+    border-radius: 16px;
+    border: 2 px solid red;
+    padding: 32px 150px;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-link{
+    display: flex;
+    gap: 24px;
+}
+/* footer styles ends here */
