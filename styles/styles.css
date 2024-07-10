@@ -9,6 +9,13 @@
 body{
     font-family: "Azeret Mono", monospace;
 }
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.text-center{
+    text-align: center;
+}
 
 /* banner styles starts here (my monitor resolution is ) */
 
@@ -72,11 +79,8 @@ body{
 
 /*web-dev styles starts here */
 .web-dev-container{
-    max-width: 1140px;
-    min-height: 1393px;
     background-color: rgba(13, 19, 33, 0.02);
     border-radius: 16px;
-    margin: 0 auto;
     margin-bottom: 88px;
     padding: 80px 97px;
 }
@@ -164,9 +168,6 @@ body{
 
 /*inspiration styles starts here */
 .inspiration-container{
-    max-width: 1140px;
-    min-height: 775px;
-    margin: 0 auto;
     /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
@@ -208,3 +209,57 @@ body{
     top: 6%;
 }
 /*inspiration styles ends here */
+
+
+.skills-container{
+    max-width: 1140px;
+    min-height: 460px;;
+    margin: 0 auto;
+    display: flex;
+    gap: 24px;
+    margin-bottom: 100px;
+}
+
+.current-target-container h3{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    margin-bottom: 24px;
+}
+.current-target-container p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 48px;
+}
+
+.current-target-text{
+    margin-left: 144px;
+    margin-right: 144px;
+}
+
+
+.skill-items-1{
+    padding: 40px;
+    box-shadow: 0 6px 50px 0 rgba(0,0,0,0.06);
+    border-radius: 16px;
+    background-color: rgba(255, 76, 30, 0.05);
+}
+.skill-items-2{
+    padding: 40px;
+    box-shadow: 0 6px 50px 0 rgba(0,0,0,0.06);
+    border-radius: 16px;
+    background-color:rgba(0, 76, 232, 0.05);
+}
+.skill-items-3{
+    padding: 40px;
+    box-shadow: 0 6px 50px 0 rgba(0,0,0,0.06);
+    border-radius: 16px;
+    background-color:rgba(255, 223, 0, 0.05);
+}
+
+.skill-image{
+    margin-bottom: 24px;
+}
