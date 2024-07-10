@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
-
 * {
     margin: 0;
     padding: 0;
@@ -17,8 +16,7 @@ main{
     text-align: center;
 }
 
-/* banner styles starts here (my monitor resolution is ) */
-
+/* banner styles starts here */
 .banner-container{
     max-width: 100%;
     min-height: 652px;
@@ -73,7 +71,6 @@ main{
     background-color: rgb(13, 19, 33);
     margin-top: 36px;
 }
-
 /* banner styles ends here */
 
 
@@ -161,7 +158,6 @@ main{
     justify-content: center;
     align-items: center;
 }
-
 /*cards styles ends here */
 
 /*web-dev styles ends here */
@@ -210,7 +206,7 @@ main{
 }
 /*inspiration styles ends here */
 
-
+/*current target styles starts here */
 .skills-container{
     max-width: 1140px;
     min-height: 460px;;
@@ -263,3 +259,51 @@ main{
 .skill-image{
     margin-bottom: 24px;
 }
+/*current target styles ends here */
+
+
+/*support styles starts here */
+.support-container{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url(../assets/handshake.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    border-radius: 16px;
+    padding: 64px;
+}
+.support-form{
+    position: relative;
+    align-items: center;
+    margin-bottom: 64px;
+
+}
+main input[type="text"]{
+    width: 540px;;
+    border-radius: 8px;
+    background-color: white;
+    display: block;
+    padding: 19px 20px;
+    border: none;
+    font-size: 16px;
+    position: absolute;
+    left: 13%;
+}
+
+.btn-support{
+    position: absolute;
+    top: 0%;
+    left: 72%;
+    height: 57px;
+    padding: 17px 20px;
+    border-radius: 8px;
+    columns: rgb(13, 19, 33);
+    background-color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+
+}
+
+/*support styles ends here */
